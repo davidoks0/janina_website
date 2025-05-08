@@ -9,7 +9,7 @@ This is a simple static personal website built with HTML and CSS.
 
 2.  **Connect your Git Repository:**
     -   Push this project (the `index.html`, `style.css`, and this `README.md` file) to a Git repository (e.g., on GitHub, GitLab, Bitbucket).
-    -   In your Vercel dashboard, click on "Add New..." -> "Project".
+    -   In Vercel dashboard, click on "Add New..." -> "Project".
     -   Import the Git repository you just created.
 
 3.  **Configure Project (Optional):**
