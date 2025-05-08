@@ -51,7 +51,8 @@ body {
     max-width: 250px;
     height: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
 }
 
 .contact-info {
@@ -100,26 +101,35 @@ body {
     font-size: 18pt;
     color: #111;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
-.content-container section:first-child .header {
+.content-container section:first-child {
+    padding-top: 0;
     margin-top: 0;
 }
 
 .content-container section {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .content-container p, .content-container ul {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .content-container ul {
     list-style-position: inside;
     padding-left: 0;
+}
+
+.project, .job {
+    margin-bottom: 30px;
+}
+
+.project:last-child, .job:last-child {
+    margin-bottom: 0;
 }
 
 .project .expjob, .job .expjob {
@@ -140,11 +150,11 @@ body {
 
 .job ul {
     padding-left: 20px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .job ul li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
