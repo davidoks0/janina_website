@@ -192,6 +192,15 @@ body {
     margin-bottom: 10px;
 }
 
+#awards a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#awards a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .sidebar-container {
         width: 33.333333%;
