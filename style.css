@@ -98,6 +98,7 @@ body {
 .py-3 {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
+    margin-top: 0;
 }
 
 .header {
@@ -144,6 +145,7 @@ body {
     font-size: 15pt;
     color:#111;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .project .date-range, .job .date-range {
